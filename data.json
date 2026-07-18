@@ -1,0 +1,52 @@
+{
+  "user": {
+    "id": 10543,
+    "username": "johndoe_99",
+    "email": "john.doe@example.com",
+    "is_active": true,
+    "verified_at": "2026-05-12T14:30:00Z",
+    "preferences": {
+      "theme": "dark",
+      "notifications_enabled": true
+    },
+    "roles": ["user", "premium"]
+  },
+  "order_history": [
+    {
+      "order_id": "ORD-50921",
+      "date": "2026-07-15T09:15:00Z",
+      "total": 124.50,
+      "status": "delivered",
+      "items": [
+        {
+          "product_id": "PROD-101",
+          "name": "Wireless Mouse",
+          "price": 45.00,
+          "quantity": 1
+        },
+        {
+          "product_id": "PROD-205",
+          "name": "Mechanical Keyboard",
+          "price": 79.50,
+          "quantity": 1
+        }
+      ],
+      "tracking_number": "TRK-99382-X"
+    },
+    {
+      "order_id": "ORD-51104",
+      "date": "2026-07-16T18:45:00Z",
+      "total": 32.00,
+      "status": "shipped",
+      "items": [
+        {
+          "product_id": "PROD-312",
+          "name": "Mouse Pad",
+          "price": 32.00,
+          "quantity": 1
+        }
+      ],
+      "tracking_number": null
+    }
+  ]
+}
